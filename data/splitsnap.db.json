@@ -1,0 +1,1216 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-10T18:38:25.122Z",
+  "lastSavedAt": "2026-11-11T08:54:01.035Z",
+  "totalActionsCount": 13,
+  "groups": {
+    "grp_manali_2026": {
+      "id": "grp_manali_2026",
+      "name": "Manali Trip",
+      "type": "Trip",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-15",
+      "currency": "INR",
+      "ownerUserId": "user_kushagra",
+      "members": [
+        {
+          "id": "mem_kushagra",
+          "groupId": "grp_manali_2026",
+          "name": "Kushagra (You)",
+          "upiId": "kushagra@okhdfcbank",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+          "role": "owner",
+          "isCurrentUser": true
+        },
+        {
+          "id": "mem_aryan",
+          "groupId": "grp_manali_2026",
+          "name": "Aryan Gupta",
+          "upiId": "aryangupta@okaxis",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+          "role": "member"
+        },
+        {
+          "id": "mem_aditya",
+          "groupId": "grp_manali_2026",
+          "name": "Aditya Sharma",
+          "upiId": "aditya@oksbi",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+          "role": "member"
+        },
+        {
+          "id": "mem_rohan",
+          "groupId": "grp_manali_2026",
+          "name": "Rohan Verma",
+          "upiId": "rohan@oksbi",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&h=100&fit=crop",
+          "role": "guest"
+        },
+        {
+          "id": "mem_diya",
+          "groupId": "grp_manali_2026",
+          "name": "Diya Patel",
+          "upiId": "diya@okaxis",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+          "role": "guest"
+        },
+        {
+          "id": "mem_priya",
+          "groupId": "grp_manali_2026",
+          "name": "Priya Nair",
+          "upiId": "priya@icici",
+          "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop",
+          "role": "guest"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "exp_1794386725545",
+          "groupId": "grp_manali_2026",
+          "title": "Evening Tea & Snacks",
+          "merchantName": "Chai Point",
+          "occurredAt": "2026-11-11T08:45:25.545Z",
+          "currency": "INR",
+          "payerMemberId": "mem_kushagra",
+          "totalPaise": 60000,
+          "state": "published",
+          "version": 1,
+          "items": [],
+          "adjustments": [],
+          "assignments": [
+            {
+              "weight": 1,
+              "memberId": "mem_kushagra"
+            },
+            {
+              "weight": 1,
+              "memberId": "mem_aryan"
+            },
+            {
+              "weight": 1,
+              "memberId": "mem_aditya"
+            }
+          ],
+          "allocations": {
+            "mem_kushagra": {
+              "memberId": "mem_kushagra",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "direct",
+                  "description": "Direct Group Split",
+                  "paise": 20000,
+                  "portionDescription": "Equal/Weighted Share"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_aryan": {
+              "memberId": "mem_aryan",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "direct",
+                  "description": "Direct Group Split",
+                  "paise": 20000,
+                  "portionDescription": "Equal/Weighted Share"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_aditya": {
+              "memberId": "mem_aditya",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "direct",
+                  "description": "Direct Group Split",
+                  "paise": 20000,
+                  "portionDescription": "Equal/Weighted Share"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_rohan": {
+              "memberId": "mem_rohan",
+              "itemsPaise": 0,
+              "itemDetails": [],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 0
+            },
+            "mem_diya": {
+              "memberId": "mem_diya",
+              "itemsPaise": 0,
+              "itemDetails": [],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 0
+            },
+            "mem_priya": {
+              "memberId": "mem_priya",
+              "itemsPaise": 0,
+              "itemDetails": [],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 0
+            }
+          },
+          "createdAt": "2026-11-11T08:45:25.545Z",
+          "updatedAt": "2026-11-11T08:45:25.545Z"
+        },
+        {
+          "id": "exp_hotel_manali",
+          "groupId": "grp_manali_2026",
+          "title": "Hotel (2 Nights)",
+          "merchantName": "Snow Crest Resort, Manali",
+          "occurredAt": "2026-11-11T12:00:00Z",
+          "currency": "INR",
+          "payerMemberId": "mem_kushagra",
+          "totalPaise": 600000,
+          "state": "published",
+          "version": 1,
+          "items": [
+            {
+              "id": "it_hotel_1",
+              "description": "Luxury Chalet 2 Nights (Group Stay)",
+              "quantity": 1,
+              "unitPricePaise": 600000,
+              "lineTotalPaise": 600000,
+              "taxIncluded": true
+            }
+          ],
+          "adjustments": [],
+          "assignments": [
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_kushagra",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_aryan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_aditya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_rohan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_diya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_hotel_1",
+              "memberId": "mem_priya",
+              "weight": 1
+            }
+          ],
+          "createdAt": "2026-11-11T12:30:00Z",
+          "updatedAt": "2026-11-11T12:30:00Z",
+          "allocations": {
+            "mem_kushagra": {
+              "memberId": "mem_kushagra",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            },
+            "mem_aryan": {
+              "memberId": "mem_aryan",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            },
+            "mem_aditya": {
+              "memberId": "mem_aditya",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            },
+            "mem_rohan": {
+              "memberId": "mem_rohan",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            },
+            "mem_diya": {
+              "memberId": "mem_diya",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            },
+            "mem_priya": {
+              "memberId": "mem_priya",
+              "itemsPaise": 100000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_hotel_1",
+                  "description": "Luxury Chalet 2 Nights (Group Stay)",
+                  "paise": 100000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 100000
+            }
+          }
+        },
+        {
+          "id": "exp_bus_manali",
+          "groupId": "grp_manali_2026",
+          "title": "Bus to Manali",
+          "merchantName": "Himachal Volvo Express",
+          "occurredAt": "2026-11-11T07:00:00Z",
+          "currency": "INR",
+          "payerMemberId": "mem_aryan",
+          "totalPaise": 480000,
+          "state": "published",
+          "version": 1,
+          "items": [
+            {
+              "id": "it_bus_1",
+              "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+              "quantity": 6,
+              "unitPricePaise": 80000,
+              "lineTotalPaise": 480000,
+              "taxIncluded": true
+            }
+          ],
+          "adjustments": [],
+          "assignments": [
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_kushagra",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_aryan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_aditya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_rohan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_diya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_bus_1",
+              "memberId": "mem_priya",
+              "weight": 1
+            }
+          ],
+          "createdAt": "2026-11-11T08:00:00Z",
+          "updatedAt": "2026-11-11T08:00:00Z",
+          "allocations": {
+            "mem_kushagra": {
+              "memberId": "mem_kushagra",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            },
+            "mem_aryan": {
+              "memberId": "mem_aryan",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            },
+            "mem_aditya": {
+              "memberId": "mem_aditya",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            },
+            "mem_rohan": {
+              "memberId": "mem_rohan",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            },
+            "mem_diya": {
+              "memberId": "mem_diya",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            },
+            "mem_priya": {
+              "memberId": "mem_priya",
+              "itemsPaise": 80000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_bus_1",
+                  "description": "Volvo AC Sleeper Seats (Delhi to Manali)",
+                  "paise": 80000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 80000
+            }
+          }
+        },
+        {
+          "id": "exp_dinner_aditya",
+          "groupId": "grp_manali_2026",
+          "title": "Dinner",
+          "merchantName": "Old Manali Cafe & Bakery",
+          "occurredAt": "2026-11-12T20:30:00Z",
+          "currency": "INR",
+          "payerMemberId": "mem_aditya",
+          "totalPaise": 120000,
+          "state": "published",
+          "version": 1,
+          "items": [
+            {
+              "id": "it_din_1",
+              "description": "Woodfired Pizza & Trout Special",
+              "quantity": 1,
+              "unitPricePaise": 120000,
+              "lineTotalPaise": 120000,
+              "taxIncluded": true
+            }
+          ],
+          "adjustments": [],
+          "assignments": [
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_kushagra",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_aryan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_aditya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_rohan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_diya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_din_1",
+              "memberId": "mem_priya",
+              "weight": 1
+            }
+          ],
+          "createdAt": "2026-11-12T21:00:00Z",
+          "updatedAt": "2026-11-12T21:00:00Z",
+          "allocations": {
+            "mem_kushagra": {
+              "memberId": "mem_kushagra",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_aryan": {
+              "memberId": "mem_aryan",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_aditya": {
+              "memberId": "mem_aditya",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_rohan": {
+              "memberId": "mem_rohan",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_diya": {
+              "memberId": "mem_diya",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            },
+            "mem_priya": {
+              "memberId": "mem_priya",
+              "itemsPaise": 20000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_din_1",
+                  "description": "Woodfired Pizza & Trout Special",
+                  "paise": 20000,
+                  "portionDescription": "Shared (17% of 6 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 20000
+            }
+          }
+        }
+      ],
+      "settlements": [
+        {
+          "id": "set_aryan_800",
+          "groupId": "grp_manali_2026",
+          "fromMemberId": "mem_kushagra",
+          "toMemberId": "mem_aryan",
+          "amountPaise": 80000,
+          "method": "paypal_sandbox",
+          "status": "confirmed",
+          "notes": "Settled via PayPal Developer Platform (Sandbox) USD: $9.41 (Capture ID: CAP-1794387209998)",
+          "createdAt": "2026-11-12T22:00:00Z",
+          "sandboxDetails": {
+            "usdAmount": "9.41",
+            "orderId": "PAYPAL-SANDBOX-1794387198640",
+            "captureId": "CAP-1794387209998",
+            "payerEmail": "sandbox-buyer@personal.example.com",
+            "payerName": "John Doe (Sandbox Buyer)",
+            "mode": "mock_sandbox",
+            "isSandboxOnly": false
+          },
+          "providerRef": "CAP-1794387209998",
+          "confirmedAt": "2026-11-11T08:53:29.998Z"
+        }
+      ],
+      "invites": [
+        {
+          "id": "inv_aryan",
+          "groupId": "grp_manali_2026",
+          "memberId": "mem_aryan",
+          "token": "tok_aryan_manali_7a8b",
+          "expiresAt": "2026-11-20T00:00:00Z",
+          "inviteUrl": "/guest/tok_aryan_manali_7a8b"
+        },
+        {
+          "id": "inv_rohan",
+          "groupId": "grp_manali_2026",
+          "memberId": "mem_rohan",
+          "token": "tok_rohan_manali_9c0d",
+          "expiresAt": "2026-11-20T00:00:00Z",
+          "inviteUrl": "/guest/tok_rohan_manali_9c0d"
+        }
+      ],
+      "activity": [
+        {
+          "id": "act_1794387209998",
+          "groupId": "grp_manali_2026",
+          "actorName": "John Doe (Sandbox Buyer)",
+          "eventType": "paypal_sandbox_captured",
+          "description": "[PAYPAL SANDBOX] Captured order PAYPAL-SANDBOX-1794387198640 ($9.41 USD, Capture: CAP-1794387209998) for Aryan Gupta. Ledger debt reconciled & cleared!",
+          "createdAt": "2026-11-11T08:53:29.999Z",
+          "metadata": {
+            "orderId": "PAYPAL-SANDBOX-1794387198640",
+            "captureId": "CAP-1794387209998",
+            "usdAmount": "9.41",
+            "payerEmail": "sandbox-buyer@personal.example.com",
+            "reconciled": true
+          }
+        },
+        {
+          "id": "act_1794386725548",
+          "groupId": "grp_manali_2026",
+          "actorName": "Kushagra",
+          "eventType": "expense_published",
+          "description": "Published version 1 of \"Evening Tea & Snacks\" for ₹600.00",
+          "createdAt": "2026-11-11T08:45:25.545Z"
+        },
+        {
+          "id": "act_m_1",
+          "groupId": "grp_manali_2026",
+          "actorName": "Aditya Sharma",
+          "eventType": "expense_published",
+          "description": "Added Dinner at Old Manali (₹1,200.00)",
+          "createdAt": "2026-11-12T21:00:00Z"
+        },
+        {
+          "id": "act_m_2",
+          "groupId": "grp_manali_2026",
+          "actorName": "Aryan Gupta",
+          "eventType": "expense_published",
+          "description": "Added Bus to Manali (₹4,800.00)",
+          "createdAt": "2026-11-11T08:00:00Z"
+        },
+        {
+          "id": "act_m_3",
+          "groupId": "grp_manali_2026",
+          "actorName": "Kushagra",
+          "eventType": "expense_published",
+          "description": "Added Hotel 2 Nights (₹6,000.00)",
+          "createdAt": "2026-11-11T12:30:00Z"
+        }
+      ],
+      "createdAt": "2026-11-10T10:00:00Z"
+    },
+    "grp_flat_utilities": {
+      "id": "grp_flat_utilities",
+      "name": "Flat & Utilities",
+      "type": "Home",
+      "currency": "INR",
+      "ownerUserId": "user_kushagra",
+      "members": [
+        {
+          "id": "mem_fu_kushagra",
+          "groupId": "grp_flat_utilities",
+          "name": "Kushagra (You)",
+          "upiId": "kushagra@okhdfcbank",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+          "role": "owner",
+          "isCurrentUser": true
+        },
+        {
+          "id": "mem_fu_rohan",
+          "groupId": "grp_flat_utilities",
+          "name": "Rohan Verma",
+          "upiId": "rohan@oksbi",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&h=100&fit=crop",
+          "role": "member"
+        },
+        {
+          "id": "mem_fu_sameer",
+          "groupId": "grp_flat_utilities",
+          "name": "Sameer Joshi",
+          "upiId": "sameer@paytm",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+          "role": "member"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "exp_flat_wifi",
+          "groupId": "grp_flat_utilities",
+          "title": "Electricity & Wifi",
+          "merchantName": "BESCOM & ACT Fibernet",
+          "occurredAt": "2026-11-05T09:00:00Z",
+          "currency": "INR",
+          "payerMemberId": "mem_fu_kushagra",
+          "totalPaise": 120000,
+          "state": "published",
+          "version": 1,
+          "items": [
+            {
+              "id": "it_flat_1",
+              "description": "November Utilities",
+              "quantity": 1,
+              "unitPricePaise": 120000,
+              "lineTotalPaise": 120000,
+              "taxIncluded": true
+            }
+          ],
+          "adjustments": [],
+          "assignments": [
+            {
+              "lineItemId": "it_flat_1",
+              "memberId": "mem_fu_kushagra",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_flat_1",
+              "memberId": "mem_fu_rohan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_flat_1",
+              "memberId": "mem_fu_sameer",
+              "weight": 1
+            }
+          ],
+          "createdAt": "2026-11-05T09:30:00Z",
+          "updatedAt": "2026-11-05T09:30:00Z",
+          "allocations": {
+            "mem_fu_kushagra": {
+              "memberId": "mem_fu_kushagra",
+              "itemsPaise": 40000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_flat_1",
+                  "description": "November Utilities",
+                  "paise": 40000,
+                  "portionDescription": "Shared (33% of 3 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 40000
+            },
+            "mem_fu_rohan": {
+              "memberId": "mem_fu_rohan",
+              "itemsPaise": 40000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_flat_1",
+                  "description": "November Utilities",
+                  "paise": 40000,
+                  "portionDescription": "Shared (33% of 3 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 40000
+            },
+            "mem_fu_sameer": {
+              "memberId": "mem_fu_sameer",
+              "itemsPaise": 40000,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_flat_1",
+                  "description": "November Utilities",
+                  "paise": 40000,
+                  "portionDescription": "Shared (33% of 3 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 40000
+            }
+          }
+        }
+      ],
+      "settlements": [],
+      "invites": [],
+      "activity": [
+        {
+          "id": "act_fu_1",
+          "groupId": "grp_flat_utilities",
+          "actorName": "Kushagra",
+          "eventType": "expense_published",
+          "description": "Added Electricity & Wifi (₹1,200.00)",
+          "createdAt": "2026-11-05T09:30:00Z"
+        }
+      ],
+      "createdAt": "2026-11-01T08:00:00Z"
+    },
+    "grp_college_food": {
+      "id": "grp_college_food",
+      "name": "College Food",
+      "type": "Other",
+      "currency": "INR",
+      "ownerUserId": "user_kushagra",
+      "members": [
+        {
+          "id": "mem_cf_kushagra",
+          "groupId": "grp_college_food",
+          "name": "Kushagra (You)",
+          "upiId": "kushagra@okhdfcbank",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+          "role": "owner",
+          "isCurrentUser": true
+        },
+        {
+          "id": "mem_cf_aryan",
+          "groupId": "grp_college_food",
+          "name": "Aryan Gupta",
+          "upiId": "aryangupta@okaxis",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+          "role": "member"
+        },
+        {
+          "id": "mem_cf_aditya",
+          "groupId": "grp_college_food",
+          "name": "Aditya Sharma",
+          "upiId": "aditya@oksbi",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+          "role": "member"
+        },
+        {
+          "id": "mem_cf_rohan",
+          "groupId": "grp_college_food",
+          "name": "Rohan Verma",
+          "upiId": "rohan@oksbi",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&h=100&fit=crop",
+          "role": "guest"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "exp_canteen_pizza",
+          "groupId": "grp_college_food",
+          "title": "Canteen Rolls & Pizza",
+          "merchantName": "Campus Canteen",
+          "occurredAt": "2026-11-08T13:00:00Z",
+          "currency": "INR",
+          "payerMemberId": "mem_cf_kushagra",
+          "totalPaise": 85000,
+          "state": "published",
+          "version": 1,
+          "items": [
+            {
+              "id": "it_cf_1",
+              "description": "Campus Snacks & Shakes",
+              "quantity": 1,
+              "unitPricePaise": 85000,
+              "lineTotalPaise": 85000,
+              "taxIncluded": true
+            }
+          ],
+          "adjustments": [],
+          "assignments": [
+            {
+              "lineItemId": "it_cf_1",
+              "memberId": "mem_cf_kushagra",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_cf_1",
+              "memberId": "mem_cf_aryan",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_cf_1",
+              "memberId": "mem_cf_aditya",
+              "weight": 1
+            },
+            {
+              "lineItemId": "it_cf_1",
+              "memberId": "mem_cf_rohan",
+              "weight": 1
+            }
+          ],
+          "createdAt": "2026-11-08T13:30:00Z",
+          "updatedAt": "2026-11-08T13:30:00Z",
+          "allocations": {
+            "mem_cf_kushagra": {
+              "memberId": "mem_cf_kushagra",
+              "itemsPaise": 21250,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_cf_1",
+                  "description": "Campus Snacks & Shakes",
+                  "paise": 21250,
+                  "portionDescription": "Shared (25% of 4 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 21250
+            },
+            "mem_cf_aryan": {
+              "memberId": "mem_cf_aryan",
+              "itemsPaise": 21250,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_cf_1",
+                  "description": "Campus Snacks & Shakes",
+                  "paise": 21250,
+                  "portionDescription": "Shared (25% of 4 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 21250
+            },
+            "mem_cf_aditya": {
+              "memberId": "mem_cf_aditya",
+              "itemsPaise": 21250,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_cf_1",
+                  "description": "Campus Snacks & Shakes",
+                  "paise": 21250,
+                  "portionDescription": "Shared (25% of 4 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 21250
+            },
+            "mem_cf_rohan": {
+              "memberId": "mem_cf_rohan",
+              "itemsPaise": 21250,
+              "itemDetails": [
+                {
+                  "lineItemId": "it_cf_1",
+                  "description": "Campus Snacks & Shakes",
+                  "paise": 21250,
+                  "portionDescription": "Shared (25% of 4 people)"
+                }
+              ],
+              "adjustmentsPaise": 0,
+              "adjustmentDetails": [],
+              "totalPaise": 21250
+            }
+          }
+        }
+      ],
+      "settlements": [],
+      "invites": [],
+      "activity": [
+        {
+          "id": "act_cf_1",
+          "groupId": "grp_college_food",
+          "actorName": "Kushagra",
+          "eventType": "expense_published",
+          "description": "Added Canteen Rolls & Pizza (₹850.00)",
+          "createdAt": "2026-11-08T13:30:00Z"
+        }
+      ],
+      "createdAt": "2026-11-08T12:00:00Z"
+    }
+  },
+  "users": {
+    "id": "user_kushagra",
+    "name": "Kushagra Rana",
+    "phone": "+91 98765 43210",
+    "email": "kushagrarana2006@gmail.com",
+    "upiId": "kushagra@okhdfcbank",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop"
+  },
+  "runtimePayPalConfig": {
+    "clientId": "sb",
+    "clientSecret": "",
+    "environment": "sandbox",
+    "currency": "USD",
+    "exchangeRate": 85
+  },
+  "actionJournal": [
+    {
+      "id": "act_mem_1794387241031_0vd8",
+      "timestamp": "2026-11-11T08:54:01.031Z",
+      "action": "PROFILE_UPDATED",
+      "entityType": "user",
+      "entityId": "user_kushagra",
+      "actor": "Kushagra Rana",
+      "summary": "Updated user profile details for Kushagra Rana",
+      "details": {
+        "name": "Kushagra Rana",
+        "upiId": "kushagra@okhdfcbank",
+        "phone": "+91 98765 43210"
+      }
+    },
+    {
+      "id": "act_mem_1794387209999_8v4e",
+      "timestamp": "2026-11-11T08:53:29.999Z",
+      "action": "PAYPAL_ORDER_CAPTURED",
+      "entityType": "paypal",
+      "entityId": "PAYPAL-SANDBOX-1794387198640",
+      "actor": "John Doe (Sandbox Buyer)",
+      "summary": "Captured PayPal payment for order PAYPAL-SANDBOX-1794387198640 ($9.41 USD, Capture: CAP-1794387209998). Reconciled: true.",
+      "details": {
+        "orderId": "PAYPAL-SANDBOX-1794387198640",
+        "captureId": "CAP-1794387209998",
+        "capturedAmount": "9.41",
+        "payerEmail": "sandbox-buyer@personal.example.com",
+        "payerName": "John Doe (Sandbox Buyer)",
+        "mode": "mock_sandbox",
+        "reconciled": true,
+        "settlementId": "set_aryan_800",
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_mem_1794387198640_uo59",
+      "timestamp": "2026-11-11T08:53:18.640Z",
+      "action": "PAYPAL_ORDER_CREATED",
+      "entityType": "paypal",
+      "entityId": "PAYPAL-SANDBOX-1794387198640",
+      "actor": "PayPal Sandbox Simulator",
+      "summary": "Created simulated PayPal Sandbox Order PAYPAL-SANDBOX-1794387198640 for $9.41 USD",
+      "details": {
+        "orderId": "PAYPAL-SANDBOX-1794387198640",
+        "usdAmount": "9.41",
+        "currency": "USD",
+        "inrAmountPaise": 80000,
+        "settlementId": "set_aryan_800",
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_mem_1794387174970_ri0c",
+      "timestamp": "2026-11-11T08:52:54.970Z",
+      "action": "PAYPAL_ORDER_CREATED",
+      "entityType": "paypal",
+      "entityId": "PAYPAL-SANDBOX-1794387174970",
+      "actor": "PayPal Sandbox Simulator",
+      "summary": "Created simulated PayPal Sandbox Order PAYPAL-SANDBOX-1794387174970 for $9.41 USD",
+      "details": {
+        "orderId": "PAYPAL-SANDBOX-1794387174970",
+        "usdAmount": "9.41",
+        "currency": "USD",
+        "inrAmountPaise": 80000,
+        "settlementId": "set_aryan_800",
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_mem_1794386725549_3po6",
+      "timestamp": "2026-11-11T08:45:25.549Z",
+      "action": "EXPENSE_PUBLISHED",
+      "entityType": "expense",
+      "entityId": "exp_1794386725545",
+      "actor": "Kushagra",
+      "summary": "Published expense \"Evening Tea & Snacks\" for ₹600.00 in group \"Manali Trip\"",
+      "details": {
+        "expenseId": "exp_1794386725545",
+        "title": "Evening Tea & Snacks",
+        "totalPaise": 60000,
+        "state": "published",
+        "version": 1,
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_mem_1794384636570_vwzj",
+      "timestamp": "2026-11-11T08:10:36.570Z",
+      "action": "DATABASE_RESET",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "Kushagra",
+      "summary": "Reset database state to showcase demonstration seed.",
+      "details": {}
+    },
+    {
+      "id": "act_mem_1794384576082_3qfk",
+      "timestamp": "2026-11-11T08:09:36.082Z",
+      "action": "DATABASE_RESET",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "Kushagra",
+      "summary": "Reset database state to showcase demonstration seed.",
+      "details": {}
+    },
+    {
+      "id": "act_mem_1794384575815_0at6",
+      "timestamp": "2026-11-11T08:09:35.815Z",
+      "action": "DATABASE_RESET",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "Kushagra",
+      "summary": "Reset database state to showcase demonstration seed.",
+      "details": {}
+    },
+    {
+      "id": "act_mem_1794384575338_q068",
+      "timestamp": "2026-11-11T08:09:35.338Z",
+      "action": "DATABASE_RESET",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "Kushagra",
+      "summary": "Reset database state to showcase demonstration seed.",
+      "details": {}
+    },
+    {
+      "id": "act_mem_1794384574527_g4c9",
+      "timestamp": "2026-11-11T08:09:34.527Z",
+      "action": "DATABASE_RESET",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "Kushagra",
+      "summary": "Reset database state to showcase demonstration seed.",
+      "details": {}
+    },
+    {
+      "id": "act_mem_1794335989429_7m0b",
+      "timestamp": "2026-11-10T18:39:49.429Z",
+      "action": "PAYPAL_ORDER_CAPTURED",
+      "entityType": "paypal",
+      "entityId": "PAYPAL-SANDBOX-1794335963118",
+      "actor": "John Doe (Sandbox Buyer)",
+      "summary": "Captured PayPal payment for order PAYPAL-SANDBOX-1794335963118 ($9.41 USD, Capture: CAP-1794335989429). Reconciled: true.",
+      "details": {
+        "orderId": "PAYPAL-SANDBOX-1794335963118",
+        "captureId": "CAP-1794335989429",
+        "capturedAmount": "9.41",
+        "payerEmail": "sandbox-buyer@personal.example.com",
+        "payerName": "John Doe (Sandbox Buyer)",
+        "mode": "mock_sandbox",
+        "reconciled": true,
+        "settlementId": "set_aryan_800",
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_mem_1794335963118_qjvt",
+      "timestamp": "2026-11-10T18:39:23.118Z",
+      "action": "PAYPAL_ORDER_CREATED",
+      "entityType": "paypal",
+      "entityId": "PAYPAL-SANDBOX-1794335963118",
+      "actor": "PayPal Sandbox Simulator",
+      "summary": "Created simulated PayPal Sandbox Order PAYPAL-SANDBOX-1794335963118 for $9.41 USD",
+      "details": {
+        "orderId": "PAYPAL-SANDBOX-1794335963118",
+        "usdAmount": "9.41",
+        "currency": "USD",
+        "inrAmountPaise": 80000,
+        "settlementId": "set_aryan_800",
+        "groupId": "grp_manali_2026"
+      }
+    },
+    {
+      "id": "act_init_1794335905121",
+      "timestamp": "2026-11-10T18:38:25.121Z",
+      "action": "SYSTEM_INITIALIZED",
+      "entityType": "system",
+      "entityId": "sys_core",
+      "actor": "System Engine",
+      "summary": "Persistent SplitSnap Database initialized with Hamilton-Hare ledger groups.",
+      "details": {
+        "groupsCount": 3,
+        "user": "Kushagra"
+      }
+    }
+  ]
+}

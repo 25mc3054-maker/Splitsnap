@@ -1,0 +1,6 @@
+{
+  "name": "SplitSnap",
+  "description": "India-first expense sharing ledger for Android, iOS, and web with AI receipt extraction, exact paise math, scoped guest access, and truthful UPI settlement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
